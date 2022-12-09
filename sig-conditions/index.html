@@ -9,7 +9,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.13.1/cr-1.6.1/fh-3.3.1/datatables.min.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.csv.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs4/dt-1.13.1/cr-1.6.1/fh-3.3.1/datatables.min.js"></script>
     <script src="js/csv_to_html_table.js"></script>
 
     <script>
@@ -42,7 +42,8 @@
                 delimiter: '"'
             },
             datatables_options: {
-                paging: false
+                paging: false,
+                fixedHeader: true
             }//,
             //custom_formatting: [
             //    [4, format_link]

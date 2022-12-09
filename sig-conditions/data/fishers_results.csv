@@ -1,5 +1,4 @@
 concept_id,concept_name,estimate_pasc,pval_adj_pasc,estimate_covid-no-pasc,pval_adj_covid-no-pasc,conf_int_lower_pasc,conf_int_lower_covid-no-pasc,conf_int_upper_pasc,conf_int_upper_covid-no-pasc
-705076,Post-acute COVID-19,Infinity,0,0,1,8402.051282,0,Infinity,Infinity
 4157332,Malignant neoplasm of female breast,0,1,0.2463534082,2.55E-06,0,0.1353595406,2.238608998,0.4161285573
 42690761,Unable to assess risk,1.726178238,1,0.282526901,0.01042161082,0.2069440186,0.1425935347,6.355400773,0.5092781998
 4254223,Esophageal dysphagia,0,1,0.2877572487,0.005414340828,0,0.1497238414,3.028039957,0.5072678078
