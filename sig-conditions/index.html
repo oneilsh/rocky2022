@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <p>Estimates are estimated odds ratios; p-values (but not 95% confidence intervals) are multiply corrected (Holm).</p>
     <div id="table-container" style="width: 100%; "></div>
                <hr>
                                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by
@@ -43,7 +44,8 @@
             },
             datatables_options: {
                 paging: false,
-                fixedHeader: true
+                fixedHeader: true,
+                colReorder: true
             }//,
             //custom_formatting: [
             //    [4, format_link]
